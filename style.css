@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height:50px;
+}
+section{
+    height: 500px;
+}
+ul{
+    list-style-type: none;
+    padding-right: 100px;
+}
+li{
+    float: right;
+}
+li a{
+    display: block;
+    padding: 10px 15px;
+    color: black;
+    font-weight: bold;
+}
+li a:hover {
+    color: coral;
+}
+.half-width{
+    width: 30%;
+    float: left;
+    padding-left:5%;
+    margin-left: 10%;
+}
+h1{
+    font-size: 45px;
+    font-weight:bolder;
+}
+h2{
+    font-weight: bold;
+}
+p{
+    font-weight: bold;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.orange-decoration{
+    color:coral;
+}
+.button{
+    background-image: linear-gradient(180deg,lightsalmon,tomato);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+.half-width img{
+    width: 80%;
+}
+.projects h1{
+    text-align: center;
+    font-weight: bold;
+}
+.single-project{
+    width: 20%;
+    float: left;
+    box-shadow: 10px 10px 40px lightgray;
+    border-radius: 5%;
+    height: 60%;
+    margin-left: 5%;
+    padding: 2%;
+}
+.single-project img{
+    height: 55%;
+    width: 55%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.chat-section{
+   padding-top: 8%;
+   background-image: url("shapes/bg.png");
+   background-repeat: no-repeat;
+   background-size: 70%;
+   background-position: top;
+}
+.chat-heading{
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+.chat-button{
+    width: 40%;
+    float: left;
+    
+    
+}
+footer{
+    text-align: center;
+}
+footer img{
+    height: 40px;
+}
