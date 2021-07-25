@@ -19,8 +19,9 @@ li{
 }
 li a{
     display: block;
-    padding: 10px 15px;
+    padding: 15px 15px;
     color: black;
+    font-size: 20px;
     font-weight: bold;
 }
 li a:hover {
@@ -87,12 +88,11 @@ p{
     width: 60%;
     float: left;
     text-align: center;
+    color: white;
 }
 .chat-button{
     width: 40%;
     float: left;
-    
-    
 }
 footer{
     text-align: center;
